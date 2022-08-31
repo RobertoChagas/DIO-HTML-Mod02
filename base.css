@@ -1,0 +1,99 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    background-color: #3722c4;
+    padding: 10px 20px 0px;
+    border-right: 1px solid black;
+    color: #f1f1f1;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+
+.header {
+    background: rgb(60, 52, 187);
+    background: linear-gradient(90deg, rgba(60, 52, 187, 1) 0%, rgba(9, 121, 29, 1) 35%, rgba(7, 143, 85, 1) 51%, rgba(2, 191, 203, 1) 85%, rgba(0, 212, 255, 1) 100%);
+    min-height: 150px;
+
+}
+
+.content {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 255, 255, 1) 0%, rgba(221, 221, 221, 1) 83.6%);
+    min-height: 300px;
+    padding: 20px;
+
+}
+
+.footer {
+    background: rgb(60, 52, 187);
+    background: linear-gradient(90deg, rgba(60, 52, 187, 1) 0%, rgba(9, 121, 29, 1) 35%, rgba(7, 143, 85, 1) 51%, rgba(2, 191, 203, 1) 85%, rgba(0, 212, 255, 1) 100%);
+    min-height: 150px;
+    color: #f1f1f1;
+}
+
+.footer h4 {
+    margin-left: 23px;
+}
+
+.logo {
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.brandName {
+    font-size: 30px;
+    color: #f1f1f1;
+    margin-left: 10px;
+    
+
+}
+
+.horarios th{
+    padding: 5px;
+    background: black;
+    color:#f1f1f1;
+}
+.horarios td{
+    text-align: center;
+   
+}
+
+#form{
+    display:flex;
+    justify-content: space-around;
+}
+
+
